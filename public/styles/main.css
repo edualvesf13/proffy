@@ -54,6 +54,20 @@ textarea{
     max-width: 700px;
 }
 
+body.theme-dark{
+    --color-background: #44475a;
+    --color-primary: #282A36;
+    --color-box-base: #d4d4d4;
+    --color-box-footer: #C1BCCC;
+    --color-text-complement: #584c77;
+}
+
+#changeTheme{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
 @media (min-width: 700px){
     :root{
         font-size: 62.5%;
